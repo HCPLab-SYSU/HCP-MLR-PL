@@ -2,7 +2,7 @@
 Implementation of papers:
 - [Structured Semantic Transfer for Multi-Label Recognition with Partial Labels]()  
   36th Association for the Advance of Artificial Intelligence (AAAI), 2022.  
-  Tianshui Chen*, Tao Pu, Hefeng Wu, Yuan Xie, Liang Lin.  
+  Tianshui Chen*, Tao Pu*, Hefeng Wu, Yuan Xie, Liang Lin.  
   
 ## Citation
 ```
