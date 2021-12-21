@@ -10,7 +10,7 @@ Implementation of papers:
   
 ## Citation
 ```
-Comming soon.
+Coming soon.
 ```
 
 ## Contributors
