@@ -1,7 +1,7 @@
 # Multi-label Image Recognition with Partial Labels
 
 Implementation of papers:
-- [Structured Semantic Transfer for Multi-Label Recognition with Partial Labels]()  
+- [Structured Semantic Transfer for Multi-Label Recognition with Partial Labels](https://arxiv.org/abs/2112.10941)  
   36th Association for the Advance of Artificial Intelligence (AAAI), 2022.  
   Tianshui Chen*, Tao Pu*, Hefeng Wu, Yuan Xie, Liang Lin.  
 - [Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels]()  
