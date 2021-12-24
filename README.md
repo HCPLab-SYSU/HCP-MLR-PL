@@ -1,4 +1,4 @@
-# Multi-label Image Recognition with Partial Labels
+# Multi-label Image Recognition with Partial Labels ![](https://visitor-badge.glitch.me/badge?page_id=HCPLab-SYSU.HCP-MLR-PL)
 
 Implementation of papers:
 - [Structured Semantic Transfer for Multi-Label Recognition with Partial Labels](https://arxiv.org/abs/2112.10941)  
@@ -9,7 +9,7 @@ Implementation of papers:
   Tao Pu*, Tianshui Chen*, Hefeng Wu, Liang Lin.  
   
 <div align=center> 
-  <a href="https://github.com/putao537/Awesome-Multi-label-Image-Recognition"><img src="https://img.shields.io/badge/AwesomeMLR-blue" alt=""></a>
+  <a href="https://github.com/putao537/Awesome-Multi-label-Image-Recognition"><img src="https://img.shields.io/badge/Awesome-MLR-blue" alt=""></a>
 </div>
 
 ## Citation
