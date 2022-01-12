@@ -1,4 +1,4 @@
-# Multi-label Image Recognition with Partial Labels ![](https://visitor-badge.glitch.me/badge?page_id=HCPLab-SYSU.HCP-MLR-PL)
+# Multi-label Image Recognition with Partial Labels ![](https://visitor-badge.glitch.me/badge?page_id=HCPLab-SYSU.HCP-MLR-PL) <a href="https://github.com/putao537/Awesome-Multi-label-Image-Recognition"><img src="https://img.shields.io/badge/Awesome-MLR-blue" alt=""></a>
 
 Implementation of papers:
 - [Structured Semantic Transfer for Multi-Label Recognition with Partial Labels](https://arxiv.org/abs/2112.10941)  
