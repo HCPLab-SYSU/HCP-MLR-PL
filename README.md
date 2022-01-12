@@ -13,11 +13,10 @@ Implementation of papers:
 </div>
 
 ## Preliminary
-```
 1. Donwload [data.zip](xxx), and unzip it.
 2. Modify the lines 16-19 in config.py.
 3. Create servel folders (i.e., "exp/log", "exp/code", "exp/checkpoint", "exp/summary") to record experiment details.
-```
+
 
 ## Usage
 
