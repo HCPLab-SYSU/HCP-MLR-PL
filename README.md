@@ -7,10 +7,6 @@ Implementation of papers:
 - [Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels]()  
   36th Association for the Advance of Artificial Intelligence (AAAI), 2022.  
   Tao Pu*, Tianshui Chen*, Hefeng Wu, Liang Lin.  
-  
-<div align=center> 
-  <a href="https://github.com/putao537/Awesome-Multi-label-Image-Recognition"><img src="https://img.shields.io/badge/Awesome-MLR-blue" alt=""></a>
-</div>
 
 ## Preliminary
 1. Donwload [data.zip](xxx), and unzip it.
