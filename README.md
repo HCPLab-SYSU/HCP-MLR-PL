@@ -12,6 +12,13 @@ Implementation of papers:
   <a href="https://github.com/putao537/Awesome-Multi-label-Image-Recognition"><img src="https://img.shields.io/badge/Awesome-MLR-blue" alt=""></a>
 </div>
 
+## Preliminary
+1. Donwload [data.zip](), and unzip it.
+2. Modify the lines 16-19 in config.py.
+3. Create servel folders (i.e., "exp/log", "exp/code", "exp/checkpoint", "exp/summary") to record experiment details.
+
+## Usage
+
 ## Citation
 ```
 Coming soon.
