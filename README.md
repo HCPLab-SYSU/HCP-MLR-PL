@@ -1,6 +1,6 @@
 # Multi-label Image Recognition with Partial Labels ![](https://visitor-badge.glitch.me/badge?page_id=HCPLab-SYSU.HCP-MLR-PL) 
 
-<a href="https://github.com/putao537/Awesome-Multi-label-Image-Recognition"><img src="https://img.shields.io/badge/Awesome-MLR-blue" alt=""></a> Implementation of papers: 
+Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-label-Image-Recognition"><img src="https://img.shields.io/badge/Awesome-MLR-blue" alt=""></a> 
 - [Structured Semantic Transfer for Multi-Label Recognition with Partial Labels](https://arxiv.org/abs/2112.10941)  
   36th Association for the Advance of Artificial Intelligence (AAAI), 2022.  
   Tianshui Chen*, Tao Pu*, Hefeng Wu, Yuan Xie, Liang Lin.  
