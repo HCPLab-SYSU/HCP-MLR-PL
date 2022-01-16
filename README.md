@@ -23,7 +23,11 @@ Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-lab
    ```
 
 2. Run SARB
-
+   ```bash
+   cd HCP-MLR-PL
+   vim scripts/SARB.sh
+   ./scripts/SARB.sh
+   ```
 
 ## Citation
 ```
