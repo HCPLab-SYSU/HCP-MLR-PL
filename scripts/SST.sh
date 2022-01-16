@@ -5,11 +5,11 @@
 # make -j8
 # cd ../..
 
-post='SST-VOC'
-printFreq=100
+post='SST-COCO'
+printFreq=1000
 
 mode='SST'
-dataset='VOC2007'
+dataset='COCO2014'
 prob=0.5
 
 pretrainedModel='./data/checkpoint/resnet101.pth'
@@ -44,7 +44,7 @@ interExampleNumber=100
 #     CUDA_VISIBLE_DEVICES=0 
 # use multiple gpu (eg,gpu 0 and 1) to train
 #     CUDA_VISIBLE_DEVICES=0,1  
-OMP_NUM_THREADS=8 MKL_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=2 python SST.py \
+OMP_NUM_THREADS=8 MKL_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=0 python SST.py \
     --post ${post} \
     --printFreq ${printFreq} \
     --mode ${mode} \

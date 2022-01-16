@@ -5,11 +5,11 @@
 # make -j8
 # cd ../..
 
-post='SARB-VG'
+post='SARB-COCO'
 printFreq=1000
 
 mode='SARB'
-dataset='VG'
+dataset='COCO2014'
 prob=0.5 
 
 pretrainedModel='./data/checkpoint/resnet101.pth'
@@ -43,7 +43,7 @@ isBetaLearnable='True'
 #     CUDA_VISIBLE_DEVICES=0 
 # use multiple gpu (eg,gpu 0 and 1) to train
 #     CUDA_VISIBLE_DEVICES=0,1  
-OMP_NUM_THREADS=8 MKL_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=3 python SARB.py \
+OMP_NUM_THREADS=8 MKL_NUM_THREADS=8 CUDA_VISIBLE_DEVICES=0 python SARB.py \
     --post ${post} \
     --printFreq ${printFreq} \
     --mode ${mode} \
