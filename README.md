@@ -16,7 +16,7 @@ Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-lab
 
 ## Usage
 1. Run SST
-   ```
+   ```bash
    cd HCP-MLR-PL
    vim scripts/SST.sh
    ./scripts/SST.sh
