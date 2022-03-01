@@ -4,7 +4,7 @@ Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-lab
 - [Structured Semantic Transfer for Multi-Label Recognition with Partial Labels](https://www.aaai.org/AAAI22Papers/AAAI-1133.ChenT.pdf)  
   36th Association for the Advance of Artificial Intelligence (AAAI), 2022.  
   Tianshui Chen*, Tao Pu*, Hefeng Wu, Yuan Xie, Liang Lin.  
-- [Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels](aaai.org/AAAI22Papers/AAAI-1134.PuT.pdf)  
+- [Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels](https://www.aaai.org/AAAI22Papers/AAAI-1134.PuT.pdf)  
   36th Association for the Advance of Artificial Intelligence (AAAI), 2022.  
   Tao Pu*, Tianshui Chen*, Hefeng Wu, Liang Lin.  
 
