@@ -28,6 +28,13 @@ Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-lab
    vim scripts/SARB.sh
    ./scripts/SARB.sh
    ```
+   
+3. Run HST
+   ```bash
+   cd HCP-MLR-PL
+   vim scripts/HST.sh
+   ./scripts/HST.sh
+   ```
 
 ## Citation
 ```
