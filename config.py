@@ -119,13 +119,13 @@ def arg_parse(mode):
         parser.add_argument('--intraMargin', type=float, default=1.0)
         parser.add_argument('--isIntraMarginLearnable', type=str2bool, default='True')        
 
-        parser.add_argument('--intraBCEWeight', type=float, default=1.0, help='weight of intra bce loss (default: 1.0)')
+        parser.add_argument('--intraBCEWeight', type=float, default=1.0)
         parser.add_argument('--intraCooccurrenceWeight', type=float, default=1.0, help='weight of intra co-occurrence loss (default: 1.0)')
 
-        parser.add_argument('--interMargin', type=float, default=1.0, help='margin of inter bce loss (default: 1.0)')
+        parser.add_argument('--interMargin', type=float, default=1.0)
         parser.add_argument('--isInterMarginLearnable', type=str2bool, default='True')
 
-        parser.add_argument('--interBCEWeight', type=float, default=1.0, help='weight of inter bce loss (default: 1.0)')
+        parser.add_argument('--interBCEWeight', type=float, default=1.0)
         parser.add_argument('--interInstanceDistanceWeight', type=float, default=1.0, help='weight of inter Instance Distance loss (default: 1.0)')
         parser.add_argument('--interPrototypeDistanceWeight', type=float, default=1.0, help='weight of inter Prototype Distance loss (default: 1.0)')
     
