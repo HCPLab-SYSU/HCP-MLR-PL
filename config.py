@@ -13,9 +13,9 @@ logger.setLevel(logging.INFO)
 
 # Dataset Path
 # =============================================================================
-prefixPathCOCO = '/data5/MS-COCO_2014/'
+prefixPathCOCO = '/data1/dataset/MS-COCO_2014/'
 prefixPathVG = '/data5/VG/'
-prefixPathVOC2007 = '/data5/PASCAL/voc2007/VOCdevkit/VOC2007/'
+prefixPathVOC2007 = '/data1/dataset/voc2007/VOCdevkit/VOC2007/'
 # =============================================================================
 
 # ClassNum of Dataset
@@ -59,7 +59,7 @@ def show_args(args):
 
 def arg_parse(mode):
 
-    assert mode in ('SST', 'SARB')
+    assert mode in ('SST', 'SARB', 'HST')
 
     parser = argparse.ArgumentParser(description='HCP Multi-label Image Recognition with Partial Labels')
 
@@ -67,7 +67,7 @@ def arg_parse(mode):
     parser.add_argument('--post', type=str, default='', help='postname of save model')
     parser.add_argument('--printFreq', type=int, default='1000', help='number of print frequency (default: 1000)')
 
-    parser.add_argument('--mode', type=str, default='SST', choices=['SST', 'SARB'], help='mode of experiment (default: SST)')
+    parser.add_argument('--mode', type=str, default='SST', choices=['SST', 'SARB', 'HST'], help='mode of experiment (default: SST)')
     parser.add_argument('--dataset', type=str, default='COCO2014', choices=['COCO2014', 'VG', 'VOC2007'], help='dataset for training and testing')
     parser.add_argument('--prob', type=float, default=0.5, help='hyperparameter of label proportion (default: 0.5)')
 
@@ -111,6 +111,28 @@ def arg_parse(mode):
 
         parser.add_argument('--isAlphaLearnable', type=str2bool, default='True', help='whether to set alpha be learnable  (default: True)')
         parser.add_argument('--isBetaLearnable', type=str2bool, default='True', help='whether to beta be learnable (default: True)')
+
+    # Aguments for HST
+    if mode == 'HST':
+        parser.add_argument('--generateLabelEpoch', type=int, default=5, help='when to generate pseudo label (default: 5)')
+
+        parser.add_argument('--intraMargin', type=float, default=1.0)
+        parser.add_argument('--isIntraMarginLearnable', type=str2bool, default='True')        
+
+        parser.add_argument('--intraBCEWeight', type=float, default=1.0, help='weight of intra bce loss (default: 1.0)')
+        parser.add_argument('--intraCooccurrenceWeight', type=float, default=1.0, help='weight of intra co-occurrence loss (default: 1.0)')
+
+        parser.add_argument('--interMargin', type=float, default=1.0, help='margin of inter bce loss (default: 1.0)')
+        parser.add_argument('--isInterMarginLearnable', type=str2bool, default='True')
+
+        parser.add_argument('--interBCEWeight', type=float, default=1.0, help='weight of inter bce loss (default: 1.0)')
+        parser.add_argument('--interInstanceDistanceWeight', type=float, default=1.0, help='weight of inter Instance Distance loss (default: 1.0)')
+        parser.add_argument('--interPrototypeDistanceWeight', type=float, default=1.0, help='weight of inter Prototype Distance loss (default: 1.0)')
+    
+        parser.add_argument('--prototypeNumber', type=int, default=50, help='number of inter positive number (default: 50)')
+        parser.add_argument('--useRecomputePrototype', type=str2bool, default='False', help='whether to recompute prototype (default: False)')
+        parser.add_argument('--computePrototypeEpoch', type=int, default=5, help='when to generate pseudo label (default: 5)')
+
 
     args = parser.parse_args()
     args.classNum = _ClassNum[args.dataset]    
