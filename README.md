@@ -7,6 +7,12 @@ Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-lab
 - [Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels](https://www.aaai.org/AAAI22Papers/AAAI-1134.PuT.pdf)  
   36th Association for the Advance of Artificial Intelligence (AAAI), 2022.  
   Tao Pu, Tianshui Chen, Hefeng Wu, Liang Lin.  
+- [Heterogeneous Semantic Transfer for Multi-label Recognition with Partial Labels]()
+  Technical Report.
+  Tianshui Chen, Tao Pu, Lingbo Liu, Yukai Shi, Zhijing Yang, Liang Lin.
+- [Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels]()
+  Technical Report.
+  Tao Pu, Tianshui Chen, Hefeng Wu, Yongyi Lu, Liang Lin.
 
 ## Preliminary
 1. Donwload [data.zip](https://1drv.ms/u/s!ArFSFaZzVErwgXMvjwsvLad6x3S5?e=hbtbTp), and unzip it.
@@ -41,14 +47,14 @@ Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-lab
 @article{chen2021structured,
   title={Structured Semantic Transfer for Multi-Label Recognition with Partial Labels},
   author={Chen, Tianshui and Pu, Tao and Wu, Hefeng and Xie, Yuan and Lin, Liang},
-  journal={arXiv preprint arXiv:2112.10941},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2021}
 }
 
 @article{pu2022semantic,
   title={Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels},
   author={Pu, Tao and Chen, Tianshui and Wu, Hefeng and Lin, Liang},
-  journal={arXiv preprint arXiv:2203.02172},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2022}
 }
 ```
