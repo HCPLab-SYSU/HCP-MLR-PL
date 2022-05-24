@@ -44,14 +44,14 @@ Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-lab
 
 ## Citation
 ```
-@article{chen2021structured,
+@article{Chen2022SST,
   title={Structured Semantic Transfer for Multi-Label Recognition with Partial Labels},
   author={Chen, Tianshui and Pu, Tao and Wu, Hefeng and Xie, Yuan and Lin, Liang},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  year={2021}
+  year={2022}
 }
 
-@article{pu2022semantic,
+@article{Pu2022SARB,
   title={Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels},
   author={Pu, Tao and Chen, Tianshui and Wu, Hefeng and Lin, Liang},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
