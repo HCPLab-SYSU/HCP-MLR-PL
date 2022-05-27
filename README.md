@@ -57,6 +57,20 @@ Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-lab
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2022}
 }
+
+@article{Chen2022HST,
+  title={Heterogeneous Semantic Transfer for Multi-label Recognition with Partial Labels},
+  author={Tianshui Chen, Tao Pu, Lingbo Liu, Yukai Shi, Zhijing Yang, Liang Lin},
+  journal={arXiv preprint arXiv:2205.11131},
+  year={2022}
+}
+
+@article{Pu2022SARB-journal,
+  title={Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels},
+  author={Tao Pu, Tianshui Chen, Hefeng Wu, Yongyi Lu, Liang Lin},
+  journal={arXiv preprint arXiv:2205.13092},
+  year={2022}
+}
 ```
 
 ## Contributors
