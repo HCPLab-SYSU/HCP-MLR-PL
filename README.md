@@ -35,8 +35,7 @@ vim scripts/<#model>.sh
 ### 1. How to generate the partial labels?
 Since all the datasets have complete labels, we randomly drop a certain proportion of positive and negative labels to create partially annotated datasets. To control the remaining labels' proportion, we can modify the variable **'prob'** in each file of the directory **'scripts'**. Specifically, we provide the partial labels generating function in **'datasets/coco2014.py'**, **'datasets/vg.py'**, **'datasets/voc2007.py'**. 
 
-As you can find, in each dataset class, we provide two elements of annotations: (1) **'labels'**: original ground truth annotations whose shape is $N * C$; (2) **'changeLabels'**: generated partial labels whose shape is $N * C$. For ease of reproducibility, we fix the random seed of generating partial labels.
-
+As you can find, in each dataset class, we provide two elements of annotations: (1) **'labels'**: original ground truth annotations whose shape is $N * C$; (2) **'changeLabels'**: generated partial labels whose shape is $N * C$. For ease of reproducibility, we freeze the random seed of generating partial labels.
 
 ## Citation
 ```
