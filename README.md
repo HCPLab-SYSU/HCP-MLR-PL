@@ -21,36 +21,18 @@ Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-lab
 
 
 ## Usage
-1. Run SST
-   ```bash
-   cd HCP-MLR-PL
-   vim scripts/SST.sh
-   ./scripts/SST.sh
-   ```
+```
+cd HCP-MLR-PL
 
-2. Run SARB
-   ```bash
-   cd HCP-MLR-PL
-   vim scripts/SARB.sh
-   ./scripts/SARB.sh
-   ```
-   
-3. Run HST
-   ```bash
-   cd HCP-MLR-PL
-   vim scripts/HST.sh
-   ./scripts/HST.sh
-   ```
-   
-4. Run SARB-journal
-   ```bash
-   cd HCP-MLR-PL
-   vim scripts/SARB-journal.sh
-   ./scripts/SARB-journal.sh
-   ```
-   
+# modify experiment settings
+# range of <#model>: SST, SARB, HST, SARB-journal
+vim scripts/<#model>.sh
+
+./<#model>.sh
+```
+
 ## Common Issues
-1. How to generate the partial labels?
+### 1. How to generate the partial labels?
 
 
 
