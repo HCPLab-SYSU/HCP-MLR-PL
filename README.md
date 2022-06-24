@@ -48,6 +48,11 @@ Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-lab
    vim scripts/SARB-journal.sh
    ./scripts/SARB-journal.sh
    ```
+   
+## Common Issues
+1. How to generate the partial labels?
+
+
 
 ## Citation
 ```
