@@ -37,6 +37,8 @@ Since all the datasets have complete labels, we randomly drop a certain proporti
 
 As you can find, in each dataset class, we provide two elements of annotations: (1) **'labels'**: original ground truth annotations whose shape is $N * C$; (2) **'changeLabels'**: generated partial labels whose shape is $N * C$. For ease of reproducibility, we freeze the random seed of generating partial labels.
 
+**Notes:** for convenience, we also provide partial labels of each dataset on all known label proportions. (see [partial-labels](./partial-labels))
+
 ## Citation
 ```
 @article{Chen2022SST,
