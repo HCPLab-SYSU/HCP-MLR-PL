@@ -58,7 +58,7 @@ class SST(nn.Module):
         if featureMap.size(1) != self.imageFeatureDim:
             featureMap = self.changeChannel(featureMap)                              # (BatchSize, imgFeatureDim, imgSize, imgSize)
 
-        semanticFeature = self.SemanticDecoupling(featureMap, self.wordFeatures)     # (BatchSize, classNum, imgFeatureDim)
+        semanticFeature = self.SemanticDecoupling(featureMap, self.wordFeatures)[0]  # (BatchSize, classNum, imgFeatureDim)
         feature = self.GraphNeuralNetwork(semanticFeature)                           # (BatchSize, classNum, imgFeatureDim)
         
         # Predict Category
