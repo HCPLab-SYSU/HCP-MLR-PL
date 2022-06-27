@@ -59,7 +59,7 @@ def show_args(args):
 
 def arg_parse(mode):
 
-    assert mode in ('SST', 'SARB', 'HST')
+    assert mode in ('SST', 'SARB', 'HST', 'SARB-journal')
 
     parser = argparse.ArgumentParser(description='HCP Multi-label Image Recognition with Partial Labels')
 
@@ -67,7 +67,7 @@ def arg_parse(mode):
     parser.add_argument('--post', type=str, default='', help='postname of save model')
     parser.add_argument('--printFreq', type=int, default='1000', help='number of print frequency (default: 1000)')
 
-    parser.add_argument('--mode', type=str, default='SST', choices=['SST', 'SARB', 'HST'], help='mode of experiment (default: SST)')
+    parser.add_argument('--mode', type=str, default='SST', choices=['SST', 'SARB', 'HST', 'SARB-journal'], help='mode of experiment (default: SST)')
     parser.add_argument('--dataset', type=str, default='COCO2014', choices=['COCO2014', 'VG', 'VOC2007'], help='dataset for training and testing')
     parser.add_argument('--prob', type=float, default=0.5, help='hyperparameter of label proportion (default: 0.5)')
 
@@ -132,8 +132,18 @@ def arg_parse(mode):
         parser.add_argument('--prototypeNumber', type=int, default=50, help='number of inter positive number (default: 50)')
         parser.add_argument('--useRecomputePrototype', type=str2bool, default='False', help='whether to recompute prototype (default: False)')
         parser.add_argument('--computePrototypeEpoch', type=int, default=5, help='when to generate pseudo label (default: 5)')
+        
+    # Aguments for SARB-journal
+    if mode == 'SARB-ournal':
+        parser.add_argument('--mixupEpoch', type=int, default=5, help='when to mix up (default: 5)')
+        parser.add_argument('--contrastiveLossWeight', type=float, default=1.0, help='weight of contrastiveloss (default: 1.0)')
+        
+        parser.add_argument('--topK', type=int, default=1, help='number of K (default: 1)')
+        parser.add_argument('--recomputePrototypeInterval', type=int, default=5, help='interval of recomputing prototypes whose value greater than zero means recomputing prototypes (default: 5)')
 
-
+        parser.add_argument('--isAlphaLearnable', type=str2bool, default='True', help='whether to set alpha be learnable  (default: True)')
+        parser.add_argument('--isBetaLearnable', type=str2bool, default='True', help='whether to beta be learnable (default: True)')
+        
     args = parser.parse_args()
     args.classNum = _ClassNum[args.dataset]    
 
