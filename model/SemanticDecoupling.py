@@ -46,6 +46,6 @@ class SemanticDecoupling(nn.Module):
 
         if visualize:
             return semanticFeature, torch.sum(torch.abs(featuremapWithCoefficient), 4), Coefficient[:,:,:,:,0]
-        return semanticFeature
+        return semanticFeature, featuremapWithCoefficient, Coefficient[:,:,:,:,0]
 
 
