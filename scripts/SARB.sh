@@ -19,7 +19,6 @@ evaluate='False'
 epochs=20
 startEpoch=0
 stepEpoch=10
-workers=8
 
 batchSize=8
 lr=1e-5
