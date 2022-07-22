@@ -15,10 +15,9 @@ Implementation of papers: <a href="https://github.com/putao537/Awesome-Multi-lab
   Tao Pu, Tianshui Chen, Hefeng Wu, Yongyi Lu, Liang Lin.   
 
 ## Preliminary
-1. Donwload [data.zip](https://1drv.ms/u/s!ArFSFaZzVErwgXMvjwsvLad6x3S5?e=hbtbTp), and unzip it.
+1. Donwload data.zip ([One Drive](https://1drv.ms/u/s!ArFSFaZzVErwgXMvjwsvLad6x3S5?e=hbtbTp) [Baidu Drive](https://pan.baidu.com/s/11hwhedvUePdGNvW3DSrqQA?pwd=5bxz)), and unzip it.
 2. Modify the lines 16-19 in config.py.
 3. Create servel folders (i.e., "exp/log", "exp/code", "exp/checkpoint", "exp/summary") to record experiment details.
-
 
 ## Usage
 ```
