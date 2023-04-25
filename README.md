@@ -11,9 +11,9 @@ Implementation of papers: ![](https://visitor-badge.glitch.me/badge?page_id=HCPL
 - [Heterogeneous Semantic Transfer for Multi-label Recognition with Partial Labels](https://arxiv.org/pdf/2205.11131.pdf)   
   Technical Report.   
   Tianshui Chen, Tao Pu, Lingbo Liu, Yukai Shi, Zhijing Yang, Liang Lin.   
-- [Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels](https://arxiv.org/pdf/2205.13092.pdf)   
+- [Dual-Perspective Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels](https://arxiv.org/pdf/2205.13092.pdf)   
   Technical Report.   
-  Tao Pu, Tianshui Chen, Hefeng Wu, Yongyi Lu, Liang Lin.   
+  Tao Pu, Tianshui Chen, Hefeng Wu, Yukai Shi, Zhijing Yang, Liang Lin.   
 
 ## Preliminary
 1. Donwload data.zip ([[One Drive](https://1drv.ms/u/s!ArFSFaZzVErwgXMvjwsvLad6x3S5?e=hbtbTp)] [[Baidu Drive](https://pan.baidu.com/s/11hwhedvUePdGNvW3DSrqQA?pwd=5bxz)]), and unzip it.
@@ -25,7 +25,7 @@ Implementation of papers: ![](https://visitor-badge.glitch.me/badge?page_id=HCPL
 cd HCP-MLR-PL
 
 # modify experiment settings
-# range of <#model>: SST, SARB, HST, SARB-journal
+# range of <#model>: SST, SARB, HST, DSRB
 vim scripts/<#model>.sh
 
 ./<#model>.sh
@@ -62,9 +62,9 @@ As you can find, in each dataset class, we provide two elements of annotations: 
   year={2022}
 }
 
-@article{Pu2022SARB-journal,
-  title={Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels},
-  author={Tao Pu, Tianshui Chen, Hefeng Wu, Yongyi Lu, Liang Lin},
+@article{Pu2022DSRB,
+  title={Dual-Perspective Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels},
+  author={Tao Pu, Tianshui Chen, Hefeng Wu, Yukai Shi, Zhijing Yang, Liang Lin},
   journal={arXiv preprint arXiv:2205.13092},
   year={2022}
 }
