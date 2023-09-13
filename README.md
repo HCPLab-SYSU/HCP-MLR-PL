@@ -1,8 +1,8 @@
 # Multi-label Image Recognition with Partial Labels 
 
-[![1](https://img.shields.io/badge/SOTA-Leadboard_On_Microsoft_COCO-blue)](https://paperswithcode.com/sota/multi-label-image-recognition-with-partial)
-[![1](https://img.shields.io/badge/SOTA-Leadboard_On_Pascal_VOC-blue)](https://paperswithcode.com/sota/multi-label-image-recognition-with-partial-1)
-[![1](https://img.shields.io/badge/SOTA-Leadboard_On_Visual_Genome-blue)](https://paperswithcode.com/sota/multi-label-image-recognition-with-partial-2)
+[![1](https://img.shields.io/badge/SOTA-Leaderboard_On_Microsoft_COCO-blue)](https://paperswithcode.com/sota/multi-label-image-recognition-with-partial)
+[![1](https://img.shields.io/badge/SOTA-Leaderboard_On_Pascal_VOC-blue)](https://paperswithcode.com/sota/multi-label-image-recognition-with-partial-1)
+[![1](https://img.shields.io/badge/SOTA-Leaderboard_On_Visual_Genome-blue)](https://paperswithcode.com/sota/multi-label-image-recognition-with-partial-2)
 
 Implementation of papers: 
 
