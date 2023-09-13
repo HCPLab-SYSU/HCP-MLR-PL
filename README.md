@@ -1,5 +1,7 @@
 # Multi-label Image Recognition with Partial Labels 
 
+![[1](https://img.shields.io/badge/any_text-you_like-blue)](https://paperswithcode.com/sota/multi-label-image-recognition-with-partial)
+
 Implementation of papers: 
 
 - [Structured Semantic Transfer for Multi-Label Recognition with Partial Labels](https://www.aaai.org/AAAI22Papers/AAAI-1133.ChenT.pdf)  
