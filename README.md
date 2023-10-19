@@ -61,14 +61,14 @@ As you can find, in each dataset class, we provide two elements of annotations: 
 
 @article{Chen2022HST,
   title={Heterogeneous Semantic Transfer for Multi-label Recognition with Partial Labels},
-  author={Tianshui Chen, Tao Pu, Lingbo Liu, Yukai Shi, Zhijing Yang, Liang Lin},
+  author={Chen, Tianshui and Pu, Tao and Liu, Lingbo and Shi, Yukai and Yang, Zhijing and Lin, Liang},
   journal={arXiv preprint arXiv:2205.11131},
   year={2022}
 }
 
 @article{Pu2022DSRB,
   title={Dual-Perspective Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels},
-  author={Tao Pu, Tianshui Chen, Hefeng Wu, Yukai Shi, Zhijing Yang, Liang Lin},
+  author={Pu, Tao and Chen, Tianshui and Wu, Hefeng and Shi, Yukai and Yang, Zhijing and Lin, Liang},
   journal={arXiv preprint arXiv:2205.13092},
   year={2022}
 }
