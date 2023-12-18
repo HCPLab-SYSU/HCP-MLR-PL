@@ -5,10 +5,10 @@
 # make -j8
 # cd ../..
 
-post='D-COCO'
+post='DSRB-COCO'
 printFreq=1000
 
-mode='SARB-journal'
+mode='DSRB'
 dataset='COCO2014'
 prob=0.5
 
