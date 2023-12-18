@@ -5,7 +5,7 @@
 # make -j8
 # cd ../..
 
-post='SARB-journal-COCO'
+post='D-COCO'
 printFreq=1000
 
 mode='SARB-journal'
