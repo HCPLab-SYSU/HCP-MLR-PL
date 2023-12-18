@@ -12,8 +12,9 @@ import torch.backends.cudnn as cudnn
 import torch.optim
 import torch.optim.lr_scheduler as lr_scheduler 
 
-from model.SARB import SARB_journal
-from utils.loss import BCELoss, ContrastiveLoss
+from model.DSRB import DSRB
+from loss.DSRB import BCELoss, ContrastiveLoss
+
 from utils.dataloader import get_graph_and_word_file, get_data_loader
 from utils.metrics import AverageMeter, AveragePrecisionMeter, Compute_mAP_VOC2012
 from utils.checkpoint import load_pretrained_model, save_code_file, save_checkpoint
@@ -26,8 +27,7 @@ def main():
     global bestPrec
 
     # Argument Parse
-    args = arg_parse()
-    assert args.mode == 'SARB-journal'
+    args = arg_parse('DSRB')
 
     # Bulid Logger
     formatter = logging.Formatter('%(asctime)s %(levelname)-8s %(message)s')
@@ -55,10 +55,9 @@ def main():
     # Load the network
     logger.info("==> Loading the network...")
     GraphFile, WordFile = get_graph_and_word_file(args, train_loader.dataset.changedLabels) 
-    model = SSGRL(GraphFile, WordFile,
-                  prototypeNum=args.prototypeNum, classNum=args.classNum,
-                  isAlphaLearnable=args.isAlphaLearnable, isBetaLearnable=args.isBetaLearnable)
-                  isAlphaLearnable=args.isAlphaLearnable, isBetaLearnable=args.isBetaLearnable)
+    model = DSRB(GraphFile, WordFile,
+                 topK=args.topK, classNum=args.classNum,
+                 isAlphaLearnable=args.isAlphaLearnable, isBetaLearnable=args.isBetaLearnable)
 
     if args.pretrainedModel != 'None':
         logger.info("==> Loading pretrained model...")
