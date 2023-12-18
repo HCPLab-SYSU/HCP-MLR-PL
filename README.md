@@ -20,9 +20,9 @@ Implementation of papers:
   Tao Pu, Tianshui Chen, Hefeng Wu, Yukai Shi, Zhijing Yang, Liang Lin.   
 
 ## Preliminary
-1. Donwload data.zip ([[One Drive](https://1drv.ms/u/s!ArFSFaZzVErwgXMvjwsvLad6x3S5?e=hbtbTp)] [[Baidu Drive](https://pan.baidu.com/s/11hwhedvUePdGNvW3DSrqQA?pwd=5bxz)]), and unzip it.
-2. Modify the lines 16-19 in config.py.
-3. Create servel folders (i.e., "exp/log", "exp/code", "exp/checkpoint", "exp/summary") to record experiment details.
+1. Donwload data.zip ([[One Drive](https://1drv.ms/u/s!Auj5G110nTE5gjeEHDh17tf_K0zp?e=GIvTvH)] [[Baidu Drive](https://pan.baidu.com/s/11hwhedvUePdGNvW3DSrqQA?pwd=5bxz)]), and unzip it.
+3. Modify the lines 16-19 in config.py.
+4. Create servel folders (i.e., "exp/log", "exp/code", "exp/checkpoint", "exp/summary") to record experiment details.
 
 ## Usage
 ```
@@ -41,7 +41,7 @@ Since all the datasets have complete labels, we randomly drop a certain proporti
 
 As you can find, in each dataset class, we provide two elements of annotations: (1) **'labels'**: original ground truth annotations whose shape is $N * C$; (2) **'changeLabels'**: generated partial labels whose shape is $N * C$. For ease of reproducibility, we freeze the random seed of generating partial labels.
 
-**Notes:** for convenience, we also provide partial labels of each dataset on all known label proportions. (see [partial-labels](https://pan.baidu.com/s/19R-tWBtsOTbSUphihLXr_g), password: mc1e)
+**Notes:** for convenience, we also provide partial labels of each dataset on all known label proportions. ([[One Drive]](https://1drv.ms/u/s!Auj5G110nTE5gjUkjiTzJkgSHOJ3?e=mXmRqe) [[Baidu Drive](https://pan.baidu.com/s/19R-tWBtsOTbSUphihLXr_g))
 
 ## Citation
 ```
