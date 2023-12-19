@@ -1,0 +1,7 @@
+numpy==1.18.3
+cpython
+pycocotools
+scikit-learn
+tensorboardX
+torch==1.7.1
+torchvision==0.8.2
