@@ -45,18 +45,24 @@ As you can find, in each dataset class, we provide two elements of annotations: 
 
 ## Citation
 ```
-@article{Chen2022SST,
-  title={Structured Semantic Transfer for Multi-Label Recognition with Partial Labels},
+@inproceedings{Chen2022SST,
   author={Chen, Tianshui and Pu, Tao and Wu, Hefeng and Xie, Yuan and Lin, Liang},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  year={2022}
+  title={Structured semantic transfer for multi-label recognition with partial labels},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  year={2022},
+  volume={36},
+  number={1},
+  pages={339--346}
 }
 
-@article{Pu2022SARB,
-  title={Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels},
+@inproceedings{Pu2022SARB,
   author={Pu, Tao and Chen, Tianshui and Wu, Hefeng and Lin, Liang},
+  title={Semantic-aware representation blending for multi-label image recognition with partial labels},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  year={2022}
+  year={2022},
+  volume={36},
+  number={2},
+  pages={2091--2098}
 }
 
 @article{Chen2022HST,
