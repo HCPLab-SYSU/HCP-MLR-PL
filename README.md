@@ -16,7 +16,7 @@ Implementation of papers:
   Technical Report.   
   Tianshui Chen, Tao Pu, Lingbo Liu, Yukai Shi, Zhijing Yang, Liang Lin.   
 - [Dual-Perspective Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels](https://www.sciencedirect.com/science/article/abs/pii/S0957417424003919)   
-  Technical Report.   
+  Expert Systems with Applications (ESWA), 2024.   
   Tao Pu, Tianshui Chen, Hefeng Wu, Yukai Shi, Zhijing Yang, Liang Lin.   
 
 ## Preliminary
