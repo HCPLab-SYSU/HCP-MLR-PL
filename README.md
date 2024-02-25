@@ -72,11 +72,14 @@ As you can find, in each dataset class, we provide two elements of annotations: 
   year={2022}
 }
 
-@article{Pu2022DSRB,
-  title={Dual-Perspective Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels},
-  author={Pu, Tao and Chen, Tianshui and Wu, Hefeng and Shi, Yukai and Yang, Zhijing and Lin, Liang},
-  journal={arXiv preprint arXiv:2205.13092},
-  year={2022}
+@article{Pu2024DSRB,
+  title = {Dual-perspective semantic-aware representation blending for multi-label image recognition with partial labels},
+  author = {Tao Pu and Tianshui Chen and Hefeng Wu and Yukai Shi and Zhijing Yang and Liang Lin}
+  journal = {Expert Systems with Applications},
+  year = {2024},
+  pages = {123526},
+  issn = {0957-4174},
+  doi = {https://doi.org/10.1016/j.eswa.2024.123526},
 }
 ```
 
