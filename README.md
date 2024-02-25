@@ -15,7 +15,7 @@ Implementation of papers:
 - [Heterogeneous Semantic Transfer for Multi-label Recognition with Partial Labels](https://arxiv.org/pdf/2205.11131.pdf)   
   Technical Report.   
   Tianshui Chen, Tao Pu, Lingbo Liu, Yukai Shi, Zhijing Yang, Liang Lin.   
-- [Dual-Perspective Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels](https://arxiv.org/pdf/2205.13092.pdf)   
+- [Dual-Perspective Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels](https://www.sciencedirect.com/science/article/abs/pii/S0957417424003919)   
   Technical Report.   
   Tao Pu, Tianshui Chen, Hefeng Wu, Yukai Shi, Zhijing Yang, Liang Lin.   
 
