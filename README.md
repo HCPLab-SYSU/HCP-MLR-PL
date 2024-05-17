@@ -13,8 +13,8 @@ Implementation of papers:
   36th Association for the Advance of Artificial Intelligence (AAAI), 2022.  
   Tao Pu*, Tianshui Chen*, Hefeng Wu, Liang Lin. (* equally contributed) 
 - [Heterogeneous Semantic Transfer for Multi-label Recognition with Partial Labels](https://arxiv.org/pdf/2205.11131.pdf)   
-  Technical Report.   
-  Tianshui Chen, Tao Pu, Lingbo Liu, Yukai Shi, Zhijing Yang, Liang Lin.   
+  International Journal of Computer Vision (IJCV), 2024.   
+  Tianshui Chen*, Tao Pu*, Lingbo Liu, Yukai Shi, Zhijing Yang, Liang Lin. (* equally contributed)   
 - [Dual-Perspective Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels](https://www.sciencedirect.com/science/article/abs/pii/S0957417424003919)   
   Expert Systems with Applications (ESWA), 2024.   
   Tao Pu, Tianshui Chen, Hefeng Wu, Yukai Shi, Zhijing Yang, Liang Lin.   
