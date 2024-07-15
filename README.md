@@ -65,11 +65,13 @@ As you can find, in each dataset class, we provide two elements of annotations: 
   pages={2091--2098}
 }
 
-@article{Chen2024HST,
+﻿@article{Chen2024HST,
   title={Heterogeneous Semantic Transfer for Multi-label Recognition with Partial Labels},
   author={Chen, Tianshui and Pu, Tao and Liu, Lingbo and Shi, Yukai and Yang, Zhijing and Lin, Liang},
   journal={International Journal of Computer Vision},
-  year={2024}
+  year={2024},
+  issn={1573-1405},
+  doi={10.1007/s11263-024-02127-2},
 }
 
 @article{Pu2024DSRB,
